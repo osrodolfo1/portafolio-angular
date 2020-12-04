@@ -16,6 +16,7 @@ import { ItemComponent } from './paginas/item/item.component';
 //Servicios
 import { InfoPaginaService } from './servicios/info-pagina.service';
 import { ProductosService } from './servicios/productos.service';
+import { SearchComponent } from './paginas/search/search.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { ProductosService } from './servicios/productos.service';
     FooterComponent,
     PortafolioComponent,
     AboutComponent,
-    ItemComponent
+    ItemComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
